@@ -1,0 +1,41 @@
+h1{
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+ .box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+ }
+ nav {
+ background-color: rgb(88, 131, 109);
+ }
+ form input{
+    padding: 2rem;
+    border-radius: 5px;
+ }
+ .background {
+    background-color: rgb(107, 10, 10);
+    padding: 20px;
+    border-radius: 10px;
+ }
+ h2{
+   text-align: center;
+ }
+   .progress-form {
+   display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+   }
+.weeks {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+   }

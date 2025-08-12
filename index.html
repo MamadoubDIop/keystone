@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitaness Planner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="background">
+        <header>
+        <h1>Welcome to mamadou's fitness planner</h1>
+        <nav class = "box">
+            <h2>date and time</h2>
+            <h2>workout type</h2>
+            <h2>weights used</h2>
+            <h2>reps</h2>
+            <h2>sets</h2>
+        </nav> 
+    </header>
+    <main> 
+     <h1 class="title">Fitness Planner</h1>
+        <form class = "box">
+            <input type="date" id="date">
+            <input type="text" id="workout-type" placeholder="workout type">
+            <input type="text" id="weights-used" placeholder="weight number">
+            <input type="text" id="reps" placeholder="reps did">
+            <input type="text" id="sets" placeholder="sets did">
+            <button type="submit">add Workout</button>
+        </form>
+        <div id="workout-log"></div>
+        <div class="nutrition">
+    <h2>Nutrition</h2>
+    <form class="progress-form">
+      <input type="text" id="food-item" placeholder="Food Item">
+      <input type="number" id="calories" placeholder="Calories">
+      <input type="number" id="protein" placeholder="Protein (g)">
+      <input type="number" id="carbs" placeholder="Carbs (g)">
+      <input type="number" id="fats" placeholder="Fats (g)"> <br>
+      <button type="submit">add Nutrition</button>
+    </form>
+  </div>
+ <h2>Results</h2>
+<div class="weeks box">
+  <form>
+    <input type="text" id="week1" placeholder="week 1:">
+    <input type="text" id="week2" placeholder="week 2:">
+    <input type="text" id="week3" placeholder="week 3:">  
+    <input type="text" id="week4" placeholder="week 4:">
+    <button type="submit">add Progress</button>
+  </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
