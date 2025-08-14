@@ -1,47 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="page1.css">
-  </head>
-  <body>
-    <h1>welcome</h1>
-<div class="days-container">
-  <form id="daysForm">
-    <div class="day-box"><input type="text" placeholder="Monday">  <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Tuesday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Wednesday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Thursday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Friday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Saturday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div>
-    <div class="day-box"><input type="text" placeholder="Sunday"> <input type="text" placeholder="Workout Type">
-        <input type="number" placeholder="Weight (lbs)" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="number" placeholder="Sets" required></div> 
-    <button type="submit">Submit</button>
-  </form>
-</div>
-<script src="index.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workout Summary</title>
+  <link rel="stylesheet" href="page1.css" />
+</head>
+<body>
+  <h1>Workout Summary</h1>
+  <div class="summary-box">
+    <h2 id="summary-date"></h2>
+    <p><strong>Workout Type:</strong> <span id="summary-workout"></span></p>
+    <p><strong>Weight Used:</strong> <span id="summary-weight"></span></p>
+    <p><strong>Reps:</strong> <span id="summary-reps"></span></p>
+    <p><strong>Sets:</strong> <span id="summary-sets"></span></p>
+    <h2>Nutrition</h2>
+    <p><strong>Food Item:</strong> <span id="summary-food"></span></p>
+    <p><strong>Calories:</strong> <span id="summary-calories"></span></p>
+    <p><strong>Protein:</strong> <span id="summary-protein"></span> g</p>
+    <p><strong>Carbs:</strong> <span id="summary-carbs"></span> g</p>
+    <p><strong>Fats:</strong> <span id="summary-fats"></span> g</p>
+  </div>
+  <script src="page1.js"></script>
 </body>
 </html>

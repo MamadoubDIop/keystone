@@ -1,48 +1,54 @@
-h1{
-    color: rgb(24, 24, 24);
-    text-align: center;
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.box {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
+
+/* Background and overall layout */
+body {
+  background-color: #f4f6f8;
+  padding: 40px;
+  color: #333;
 }
-nav {
-    background-color: rgb(88, 131, 109);
+
+/* Main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #2c3e50;
 }
-form input{
-    padding: 2rem;
-    border-radius: 5px;
+
+/* Summary box container */
+.summary-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
-.background {
-    background-color: rgb(107, 10, 10);
-    padding: 20px;
-    border-radius: 10px;
+
+/* Section headings */
+.summary-box h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 5px;
 }
-h2{
-    text-align: center;
+
+/* Paragraphs for data */
+.summary-box p {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
-.progress-form {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-}
-.weeks {
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-}
-.nutrition-log {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    gap: 10px;
-    width: 300px;
+
+/* Bold labels */
+.summary-box strong {
+  color: #2c3e50;
+  font-weight: 600;
 }
