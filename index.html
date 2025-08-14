@@ -20,17 +20,17 @@
   <main>
     <form id="workout-form" class="box">
       <input type="date" id="date" name="date" />
-      <input type="text" id="workout-type" name="workout-type" placeholder="Workout Type" />
-      <input type="text" id="weights-used" name="weights-used" placeholder="Weight Number" />
-      <input type="text" id="reps" name="reps" placeholder="Reps Did" />
-      <input type="text" id="sets" name="sets" placeholder="Sets Did" />
+      <input type="text" id="workout-type" name="workout-type" placeholder="Workout Type"  required/>
+      <input type="text" id="weights-used" name="weights-used" placeholder="Weight Number" required/>
+      <input type="text" id="reps" name="reps" placeholder="Reps Did" required />
+      <input type="text" id="sets" name="sets" placeholder="Sets Did" required/>
       <div class="nutrition">
         <h2>Nutrition</h2>
-        <input type="text" id="food-item" name="food-item" placeholder="Food Item" />
-        <input type="number" id="calories" name="calories" placeholder="Calories" />
-        <input type="number" id="protein" name="protein" placeholder="Protein (g)" />
-        <input type="number" id="carbs" name="carbs" placeholder="Carbs (g)" />
-        <input type="number" id="fats" name="fats" placeholder="Fats (g)" />
+        <input type="text" id="food-item" name="food-item" placeholder="Food Item" required />
+        <input type="number" id="calories" name="calories" placeholder="Calories" required/>
+        <input type="number" id="protein" name="protein" placeholder="Protein (g)" required/>
+        <input type="number" id="carbs" name="carbs" placeholder="Carbs (g)" required/>
+        <input type="number" id="fats" name="fats" placeholder="Fats (g)" required/>
       </div>
       <button type="submit">Submit</button>
     </form>
