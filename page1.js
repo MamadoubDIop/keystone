@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data = JSON.parse(localStorage.getItem('workoutLog'));
+  const dataBeforeExtraction = JSON.parse(localStorage.getItem('workoutLog'));
+  // array 
+  let length = dataBeforeExtraction.length; // 2
+  let data = dataBeforeExtraction[length - 1];
+
   console.log(data);
   if (data) {
     document.getElementById('summary-date').textContent = `Date: ${data.date}`;
