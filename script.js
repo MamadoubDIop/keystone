@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     existingData.push(workoutData);
     localStorage.setItem('workoutLog', JSON.stringify(existingData));
 
-    window.location.href = 'Page1.html';
+    window.location.href = 'page1.html';
   });
 });
