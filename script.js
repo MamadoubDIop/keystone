@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
-    let existingData = JSON.parse(localStorage.getItem('workoutLog')) || [];
+    let existingData = JSON.parse(localStorage.getItem('workoutLog')) || null;
     existingData = workoutData
     localStorage.setItem('workoutLog', JSON.stringify(existingData));
 
