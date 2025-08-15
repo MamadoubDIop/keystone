@@ -1,18 +1,15 @@
-/* Reset some default styles */
 body, h1, h2, p {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Background and overall layout */
 body {
   background-color: #f4f6f8;
   padding: 40px;
   color: #333;
 }
 
-/* Main heading */
 h1 {
   text-align: center;
   margin-bottom: 30px;
@@ -20,7 +17,6 @@ h1 {
   color: #2c3e50;
 }
 
-/* Summary box container */
 .summary-box {
   max-width: 600px;
   margin: 0 auto;
@@ -30,7 +26,6 @@ h1 {
   padding: 30px;
 }
 
-/* Section headings */
 .summary-box h2 {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -40,15 +35,21 @@ h1 {
   padding-bottom: 5px;
 }
 
-/* Paragraphs for data */
 .summary-box p {
   font-size: 1.1em;
   margin-bottom: 12px;
   line-height: 1.6;
 }
 
-/* Bold labels */
 .summary-box strong {
   color: #2c3e50;
   font-weight: 600;
+}
+.back-to-first-page {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;    
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
 }
