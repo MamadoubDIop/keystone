@@ -40,8 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.appendChild(dayColumn);
   });
-
-  // ✅ Attach event listener AFTER DOM is fully built
+  
   const clearButton = document.getElementById('clear-data-btn');
   if (clearButton) {
     clearButton.addEventListener('click', () => {
