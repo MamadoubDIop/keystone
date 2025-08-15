@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
-    const existingData = JSON.parse(localStorage.getItem('workoutLog')) || [];
-    existingData.push(workoutData);
+    let existingData = JSON.parse(localStorage.getItem('workoutLog')) || [];
+    existingData = workoutData
     localStorage.setItem('workoutLog', JSON.stringify(existingData));
 
     window.location.href = 'page1.html';

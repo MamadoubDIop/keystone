@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data = JSON.parse(localStorage.getItem('workoutData'));
-
+  const data = JSON.parse(localStorage.getItem('workoutLog'));
+  console.log(data);
   if (data) {
     document.getElementById('summary-date').textContent = `Date: ${data.date}`;
     document.getElementById('summary-workout').textContent = data.workoutType;
